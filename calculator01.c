@@ -1,27 +1,21 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main ()
- {
+int main()
+{
 
+    int a, b;
 
-    int a;
-    int b;
+    printf("Enter The First Number:");
+    
+    scanf("%d", &a);
 
-    printf("Enter The First Number:-");
-    scanf("%d" ,&a);
+    printf("Enter The Second Number:");
 
+    scanf("%d", &b);
 
-     printf("Enter The Second Number:-");
-    scanf("%d" ,&b);
+    int c = a + b;
 
-    int c=a+b ;
+    printf("Your Sum is :%d", c);
 
-
-    printf("Your Sum is :%d",c );
-
-    return 0;
-
-
-
-
+    return 0 ;
 }
