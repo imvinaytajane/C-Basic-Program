@@ -2,16 +2,16 @@
 
 int main ()
 {
-    int a , b ;
+    int length , breadth ;
 
     printf("Input Length of Rectangle:-");
-    scanf("%d",&a);
+    scanf("%d",&length);
 
     printf("Input Breadth of Rectangle:-");
-    scanf("%d",&b);
+    scanf("%d",&breadth);
 
 
-    printf( "Area of Rectangle is :%d" ,a * b);
+    printf( "Area of Rectangle is :%d" ,length * breadth);
 
     return 0 ;
 }

@@ -2,21 +2,19 @@
 
 int main()
 {
-    float r ,h;
+    int radius ,height;
 
-    float p;
-
-    p=3.14;
+    float pi=3.14;
 
     printf("Input Radius of Circle/Base :-\n");
-    scanf( "%f",&r);
+    scanf( "%d",&radius);
 
-    printf( "Area of circle/Base is %f \n:", p*r*r);
+    printf( "Area of circle/Base is %f\n:", pi*radius*radius);
 
-    printf("Input Height of Cylender:- \n");
-    scanf("%f",&h);
+    printf("Input Height of Cylender:-\n");
+    scanf("%d",&height);
 
-    printf("Volume of cylender is %f \n",p*r*r*h);
+    printf("Volume of cylender is %f\n",pi*radius*radius*height);
 
 
 
