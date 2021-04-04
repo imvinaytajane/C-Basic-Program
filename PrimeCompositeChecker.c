@@ -3,7 +3,7 @@
 int main()
 {
     int n, prime = 1;
-    printf("Enter Number to Find Even or Odd:-\n");
+    printf("Enter Number to Find Prime or Composite:-\n");
     scanf(" %d", &n);
 
     for (int i = 2; i < n; i++)
@@ -17,10 +17,10 @@ int main()
 
     if (prime == 0)
     {
-        printf("Your Number is Even");
+        printf("Your Number is Composite");
     }
     else
     {
-        printf("Your Number is odd");
+        printf("Your Number is Prime");
     }
 }
