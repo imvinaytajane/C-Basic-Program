@@ -25,7 +25,7 @@ int main()
 
         else
         {
-            printf("You Guessed in %d Attempts\n", nguesses);
+            printf("Congrats!! You Guessed in %d Attempts\n", nguesses);
         }
 
         nguesses++;
