@@ -1,3 +1,3 @@
 # C-Basic-Program
 
-This Repository Consist of Small Programs made in c Langauge
+This Repository Consist of Minor Programs made in c Langauge
